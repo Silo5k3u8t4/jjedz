@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="lgu.css" rel="stylesheet">
+  <link href="sus.css" rel="stylesheet">
 </head>
 <body>
   <div class="top"></div>
-  <div class="dropdown">
-    <button class="dropbtn"><img src="more.png"></button>
-    <div class="dropdown-content">
-      <center><a href="#">E-mail</a></center>
-      <center><a href="#">About Us</a></center>
-      <center><a href="#">Sign-Up</a></center>
-    </div>
+  <div class="radio-inputs">
+    <label class="radio">
+      <input type="radio" name="radio" checked="" />
+      <span class="name">HOME</span>
+    </label>
+    <label class="radio">
+      <input type="radio" name="radio" />
+      <span class="name">About US</span>
+    </label>
   </div>
    <section><span></span> <span></span> <span></span> <span></span> <span></span>
     <span></span> <span></span> <span></span> <span></span> <span></span> 
@@ -152,7 +154,7 @@
    
     <div class="signin"> 
       <div class="content"> 
-       <h2>Sign In</h2> 
+       <h2>Sign Up</h2> 
        <div class="form"> 
         <div class="inputBox"> 
          <input type="text" required> <i>Username</i> 
@@ -160,10 +162,13 @@
         <div class="inputBox"> 
          <input type="password" required> <i>Password</i> 
         </div> 
-        <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a> 
+        <div class="inputBox"> 
+          <input type="text" required> <i>College</i> 
+         </div> 
+        <div class="links"> <a href="#">already have an account?</a> 
         </div> 
         <div class="inputBox"> 
-         <input type="submit" value="Login"> 
+         <input type="submit" value="Create account"> 
         </div> </div> </div> 
      </div> 
   </section>

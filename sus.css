@@ -53,7 +53,7 @@ section::before {
   left: 50%;
   width: 10px;
   height: 10px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 255, 255, 0.815) 50%, rgba(0, 255, 255, 0) 100%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 225, 255, 0.815) 50%, rgba(0, 255, 255, 0) 100%);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -87,7 +87,7 @@ section span {
 }
 
 section span:hover {
-  background: rgb(0, 255, 255);
+  background:  rgba(0, 225, 255, 0.815);
   transition: 0s;
 }
 
@@ -118,7 +118,7 @@ section .signin .content {
 
 section .signin .content h2 {
   font-size: 1.5rem;
-  color: rgb(0, 255, 255);
+  color:  rgb(0, 225, 255);
   text-transform: uppercase;
 }
 
@@ -174,13 +174,13 @@ section .signin .content .form .inputBox i {
 }
 
 .signin .content .form .links a:nth-child(2) {
-  color: rgb(0, 255, 255);
+  color:  rgba(0, 225, 255, 0.815);
   font-weight: 600;
 }
 
 .signin .content .form .inputBox input[type="submit"] {
   padding: 0.5rem;
-  background:rgb(0, 255, 255);
+  background: rgba(0, 225, 255, 0.815);
   color: #ffffff;
   font-weight: 600;
   font-size: 1.35rem;
@@ -191,6 +191,7 @@ section .signin .content .form .inputBox i {
 input[type="submit"]:active {
   opacity: 0.6;
 }
+
 .radio-inputs {
   position: absolute;
   display: flex;
